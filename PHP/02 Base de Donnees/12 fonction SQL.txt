@@ -1,0 +1,50 @@
+>> FONCTIONS SCALAIRES : agissent sur chaque entrée
+
+SELECT UPPER(nom) AS nom_majuscule FROM users  --> Met en Maj les elements a la recuperation (AS renomage)
+
+        $données['nom_majuscule']
+
+SELECT LOWER
+
+SELECT LENGTH(nom) AS longueur ...  --> longueur elements
+
+SELECT ROUND(prix, 2) AS prix_arrondi FROM jeux_video  --> arrondi a 2 dec
+
+>> FONCTIONS D'AGREGAT : agissent sur un ensemble d'entrees
+
+SELECT AVG(prix) AS prix_moyen FROM jeux_video WHERE console="PC"  --> moyenne des elements sur PC
+
+    ** ensuite pas besoin de while...fetch car une seule entree --> $donnees = $reponse->fetch(); suffit
+
+SELECT SUM(prix) AS somme_prix FROM jeux_video ...  --> somme des elements
+
+SELECT MAX(prix) AS prix_max FROM jeux_video ...  --> max des elements
+
+SELECT MIN
+
+SELECT COUNT(*) FROM jeux_video ... --> compte le nombre d'elements
+
+SELECT COUNT(nb_joueurs_max) AS nbjeux FROM jeux_video --> compte le nombre d'elements ou nb_joueurs_max existe (pas NULL)
+
+SELECT COUNT(DISTINCT possesseur) AS nbpossesseurs FROM jeux_video --> compte le nombre de possesseurs differents
+
+SELECT AVG(prix), console FROM jeux_video GROUP BY console  --> calcule la moyenne des prix pour chaque console
+
+SELECT AVG(prix) AS prix_moyen, console FROM jeux_video GROUP BY console ORDER BY prix_moyen  --> 
+
+calcule la moyenne des prix pour chaque console et les ordonne croissant
+
+SELECT AVG(prix) AS prix_moyen, console FROM jeux_video GROUP BY console HAVING prix_moyen < 10 ORDER BY prix_moyen  --> 
+
+calcule la moyenne des prix pour chaque console et les ordonne croissant en ne gardant que les moyennes < 10
+
+    ** HAVING comme WHERE mais s'effectue après le regroupement
+
+COMBO :
+
+SELECT AVG(prix) AS prix_moyen, console FROM jeux_video WHERE possesseur='Patrick' GROUP BY console HAVING prix_moyen <= 10
+--> on isole Patrick, on fait la moyenne pour chaque console, on garde les moyennes <=10
+    ** WHERE agit avant HAVING
+
+
+

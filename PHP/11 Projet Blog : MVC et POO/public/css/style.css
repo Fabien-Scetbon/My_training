@@ -1,0 +1,180 @@
+html {
+  font-family: Helvetica, sans-serif;
+  font-size: 18px;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #975e43;
+}
+
+header {
+  width: 100%;
+  text-align: center;
+  background-color: #553636;
+  position: fixed;
+  z-index: 2;
+}
+
+header h1 {
+  color: #eb6b16;
+  padding: 20px 0 20px 0;
+  margin: 0;
+  border: 3px #eb6b16 solid;
+}
+
+input {
+  border: 1px solid black;
+  padding: 5px 10px;
+  margin-left: 10px;
+}
+
+textarea {
+  resize: none;
+  margin-left: 9px;
+  background-color: rgb(213, 218, 218);
+}
+
+* {
+  box-sizing: border-box;
+  /* inclue le padding dans le width (pour container) */
+}
+
+h2 {
+  text-align: center;
+  font-size: 20px;
+  color: #e09563;
+}
+
+form {
+  width: 80%;
+  margin-left: 50px;
+  display: inline-block;
+}
+
+button {
+  font-size: 15px;
+  font-weight: bold;
+  background-color: #553636;
+  border: 2px solid #eb6b16;
+  border-radius: 5px;
+  margin-left: 150px;
+  margin-top: 10px;
+  color: #fff;
+  padding: 5px;
+  cursor: pointer;
+}
+
+button:focus {
+  transform: scale(0.95);
+  outline: none;
+}
+
+.container {
+  display: flex;
+  width: 100%;
+  min-width: 2500px;
+  margin: 0 auto;
+  padding: 15px;
+  position: relative;
+  z-index: 1;
+}
+
+.container2 {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  min-width: 1250px;
+  margin: 0 auto;
+  padding: 15px;
+  position: relative;
+  z-index: 1;
+}
+
+.gauche {
+  position: absolute;
+  top: 150px;
+  left: 150px;
+  position: fixed;
+}
+
+.droite {
+  display: flex;
+  flex-direction: column;
+  width: 600px;
+  position: absolute;
+  top: 150px;
+  right: 870px;
+}
+
+.billet1 {
+  border: 1px rgb(66, 52, 44) solid;
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: rgb(231, 192, 173);
+}
+
+.billet2 {
+  margin-top: 120px;
+  border: 1px rgb(66, 52, 44) solid;
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: rgb(231, 192, 173);
+}
+
+.billet3 {
+  border: 1px rgb(66, 52, 44) solid;
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: rgb(238, 193, 162);
+}
+
+.commentaires {
+  margin-left: 200px;
+}
+
+.result {
+  display: flex;
+  flex-direction: column;
+}
+
+#info {
+  text-align: center;
+}
+
+#auteur {
+  color: rgb(49, 48, 59);
+  margin-right: 20px;
+}
+
+#titre {
+  color: rgb(49, 48, 59);
+  margin-right: 20px;
+}
+
+#time {
+  font-size: 12px;
+  color: rgb(150, 149, 158);
+  margin-top: 10px;
+}
+
+#text {
+  width: 100%;
+  word-wrap: break-word;
+  color: rgb(42, 42, 44);
+}
+
+#commentaires {
+  margin-bottom: 10px;
+}
+
+#commentaires a {
+  font-size: 15px;
+  color: #db613c;
+  text-decoration: none;
+}
+
+#commentaires a:hover {
+  font-weight: bold;
+}
