@@ -1,0 +1,39 @@
+body {
+  font-family: arial;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  min-width: 300px;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+}
+.bouton {
+  display: flex;
+  justify-content: center;
+}
+
+button {
+  border: 1px;
+  border-radius: 15px;
+  padding: 15px;
+  cursor: pointer;
+}
+
+* {
+  outline: 10;
+}
+
+.dark {
+  background-color: #112f41;
+  color: #ffffff;
+}
+
+.dark button {
+  background: #144098;
+  color: #fff;
+}

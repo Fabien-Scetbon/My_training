@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Le Pendu</title>
+    <link rel="stylesheet" href="style.css"/>
+    
+  </head>
+  <body>
+      <h1>Le Pendu</h1>
+      <div id="bloc">
+        <div id="conteneur">
+          <p class='paragraphe'>Essaye de deviner ce mot :</p>
+
+          <div id="cadreMot">
+            <p id="motADeviner"></p>
+          </div>
+            <form id="formulaire">
+              <input id="lettre" type="text autofocus placeholder="?" maxlength ="1"/>
+              <button id="button" type="submit">Vérifier</button>
+              <p class="lettresDonnees"></p>
+            </form>
+          <div id="footer">
+          <p id="pendu"></p>
+          <p id="image"><img src="pendu.jpg" alt="photo pendu"></p>
+          </div>
+
+        </div>
+      </div>
+  <script type= "text/javascript" src="index.js"></script>
+</body>
+</html>

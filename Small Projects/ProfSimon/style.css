@@ -1,0 +1,113 @@
+body {
+  font-family: Comic Sans MS, sans-serif;
+  background-color: rgb(26, 21, 21);
+}
+
+h1 {
+  display: block;
+  width: 400px;
+  margin: auto;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  color: rgb(101, 157, 221);
+}
+
+#bloc {
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+  align-items: center;
+  width: 1000px;
+  height: 650px;
+  background: linear-gradient(35deg, rgb(101, 157, 221), rgb(13, 43, 77));
+  margin: auto;
+  border: 3px black double;
+}
+
+#conteneur {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-content: center;
+  width: 600px;
+  height: 600px;
+  background-color: rgb(21, 43, 116);
+  margin: auto;
+  border: 3px rgb(39, 29, 182) double;
+}
+
+#info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-content: center;
+  align-items: center;
+  border: 3px rgb(88, 80, 192) double;
+  width: 250px;
+  height: 250px;
+  margin-right: 45px;
+  box-shadow: 6px 6px rgb(28, 23, 92);
+}
+
+button {
+  background-color: rgb(21, 43, 116);
+  color: white;
+}
+p1 {
+  font-size: 25px;
+  font-weight: bold;
+  color: rgb(18, 18, 97);
+}
+
+h2 {
+  color: rgb(18, 18, 97);
+}
+.gagne {
+  background-color: rgb(130, 131, 223);
+}
+.perdu {
+  background-color: rgb(207, 44, 145);
+}
+
+.score {
+  text-align: center;
+  line-height: 15px;
+  width: 220px;
+  height: 100px;
+  background-color: rgb(163, 163, 206);
+}
+.rejouer {
+  text-align: center;
+  line-height: 15px;
+  width: 220px;
+  height: 100px;
+  background-color: rgb(163, 163, 206);
+}
+.normal {
+  width: 280px;
+  height: 280px;
+
+  margin-bottom: 12px;
+  margin-top: 8px;
+  background-color: grey;
+}
+
+.vertOn {
+  background-color: green;
+}
+
+.rougeOn {
+  background-color: red;
+}
+
+.bleuOn {
+  background-color: blue;
+}
+
+.jauneOn {
+  background-color: yellow;
+}
+
+.none {
+  background-color: grey;
+}
