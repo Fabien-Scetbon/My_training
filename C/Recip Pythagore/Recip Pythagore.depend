@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1587373286 source:c:\users\fabino\desktop\programmation\recip pythagore\main.c
+	<stdio.h>
+	<stdlib.h>
+
+1587373286 source:c:\users\fabino\desktop\programmation\c\recip pythagore\main.c
+	<stdio.h>
+	<stdlib.h>
+

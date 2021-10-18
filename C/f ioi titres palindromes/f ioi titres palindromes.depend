@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1592409923 source:c:\users\fabino\desktop\programmation\c\f ioi titres palindromes\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	<math.h>
+

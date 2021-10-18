@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1587145020 source:c:\users\fabino\desktop\programmation\racines polynomes\main.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+

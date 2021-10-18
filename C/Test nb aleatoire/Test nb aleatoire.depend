@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1586798554 source:c:\users\fabino\desktop\programmation\test nb aleatoire\main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+

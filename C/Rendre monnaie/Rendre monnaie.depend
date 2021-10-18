@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1587235026 source:c:\users\fabino\desktop\programmation\rendre monnaie\main.c
+	<stdio.h>
+	<stdlib.h>
+

@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1588445172 source:c:\users\fabino\desktop\programmation\test\main.c
+	<stdio.h>
+	<stdlib.h>
+
+1588522815 source:c:\users\fabino\desktop\programmation\tableau ordonne sans fonction\main.c
+	<stdio.h>
+	<stdlib.h>
+
+1588522815 source:c:\users\fabino\desktop\programmation\c\tableau ordonne sans fonction\main.c
+	<stdio.h>
+	<stdlib.h>
+

@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1592513779 source:c:\users\fabino\desktop\programmation\c\f ioi trier titre livres ordre alpha\f ioi trier titres livres ordre alpha\main.c
+	<stdio.h>
+	<string.h>
+	<ctype.h>
+

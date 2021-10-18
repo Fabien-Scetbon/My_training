@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1592936311 source:c:\users\fabino\desktop\programmation\c\f ioi trier titre livres ordre alpha\f ioi recherche d'acronymes\main.c
+	<stdio.h>
+	<string.h>
+	<ctype.h>
+
+1593009571 source:c:\users\fabino\desktop\programmation\c\f ioi recherche d'acronymes\main.c
+	<stdio.h>
+	<string.h>
+	<ctype.h>
+

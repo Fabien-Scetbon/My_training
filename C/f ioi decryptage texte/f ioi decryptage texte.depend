@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1593023758 source:c:\users\fabino\desktop\programmation\c\f ioi decryptage texte\main.c
+	<stdio.h>
+	<string.h>
+	<ctype.h>
+

@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1590432751 source:c:\users\fabino\desktop\programmation\c\tables multiplication\carre parfait\main.c
+	<stdio.h>
+	<stdlib.h>
+
+1590504094 source:c:\users\fabino\desktop\programmation\c\carre parfait\main.c
+	<stdio.h>
+	<stdlib.h>
+

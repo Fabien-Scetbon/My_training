@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1590437973 source:c:\users\fabino\desktop\programmation\c\tables multiplication\generateur carres magiques\main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+
+1590690185 source:c:\users\fabino\desktop\programmation\c\generateur carres magiques\main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+

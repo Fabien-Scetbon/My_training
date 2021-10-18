@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1592851701 source:c:\users\fabino\desktop\programmation\c\f ioi trier titre livres ordre alpha\f ioi recherche occur mot dans texte\main.c
+	<stdio.h>
+	<string.h>
+	<ctype.h>
+

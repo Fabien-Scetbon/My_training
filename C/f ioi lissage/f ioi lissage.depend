@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1592387213 source:c:\users\fabino\desktop\programmation\c\f ioi lissage\main.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+

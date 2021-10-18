@@ -1,0 +1,23 @@
+# depslib dependency file v1.0
+1542043739 source:c:\users\fabino\downloads\game.c
+	"game.h"
+	<stdio.h>
+
+1589132357 c:\users\fabino\downloads\game.h
+
+1542041305 source:c:\users\fabino\downloads\main.c
+	"game.h"
+
+1514144174 source:c:\users\fabino\desktop\programmation\jeu du t\main.c
+	<stdio.h>
+	<stdlib.h>
+
+1542041305 source:c:\users\fabino\desktop\programmation\c\jeu du t\main.c
+	"game.h"
+
+1589132357 c:\users\fabino\desktop\programmation\c\jeu du t\game.h
+
+1590606115 source:c:\users\fabino\desktop\programmation\c\jeu du t\game.c
+	"game.h"
+	<stdio.h>
+

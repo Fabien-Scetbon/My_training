@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1590589767 source:c:\users\fabino\desktop\programmation\c\tables multiplication\palindrome\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+

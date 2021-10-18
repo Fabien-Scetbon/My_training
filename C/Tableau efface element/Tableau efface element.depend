@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1590161354 source:c:\users\fabino\desktop\programmation\tableau efface element\main.c
+	<stdio.h>
+	<stdlib.h>
+
+1590162685 source:c:\users\fabino\desktop\programmation\c\tableau efface element\main.c
+	<stdio.h>
+	<stdlib.h>
+

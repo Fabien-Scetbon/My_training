@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1592936137 source:c:\users\fabino\desktop\programmation\c\f ioi trier titre livres ordre alpha\effacer\main.c
+	<stdio.h>
+	<stdlib.h>
+
+1592936137 source:c:\users\fabino\desktop\programmation\c\effacer\main.c
+	<stdio.h>
+	<stdlib.h>
+

@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1587547538 source:c:\users\fabino\desktop\programmation\calculatrice\calculatrice.c
+	<stdio.h>
+	<stdlib.h>
+	"calculatrice.h"
+
+1587547367 source:c:\users\fabino\desktop\programmation\calculatrice\main.c
+	<stdio.h>
+	<stdlib.h>
+	"calculatrice.h"
+
+1587488739 c:\users\fabino\desktop\programmation\calculatrice\calculatrice.h
+
